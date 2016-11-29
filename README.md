@@ -1,0 +1,4 @@
+# HelloCv
+
+需要更改CMakeLists.txt里面的两个绝对路径pathToProject、pathToOpenCv及build.gradle里的jniLibs.srcDirs，
+否则可能gradle不会将libopencv_java3.so打包进APK里面。
